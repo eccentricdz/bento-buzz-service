@@ -11,4 +11,5 @@ export interface Article {
   content: string;
   link: string;
   pubDate: Date;
+  source?: string;
 }
